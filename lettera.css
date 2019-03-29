@@ -1,11 +1,275 @@
+
+#content {
+}
+
+.content-background {
+	position:absolute;
+	float:middle;
+	top: 170px;
+	left: 40px;
+	width: 1360px;
+	height: 400px;
+	background-color: lavender;
+}
+
+.content-property {
+	position:absolute;
+	float:middle;
+	top: 170px;
+	left: 40px;
+	width: 1360px;
+	height: 400px;
+	background-color: aquamarine;
+	transition: 3.8s;
+}
+
+.content-property:hover {
+	background-color: snow;
+	transform: translate(-100rem);
+}
+
+#a5 {
+	display: inline-block;
+	position:relative;
+	float:left;
+	width: 20%;
+	top:15rem;
+	left: 7rem;
+}
+
+.box-horizontal-first{
+	width:100px;
+	height: 170px;
+	background-color: tomato;
+	border: 40px solid slateblue;
+	border-radius: 25px;
+}
+
+.stroke-vertical-first {
+	background-color: darkslateblue;
+	padding: none;
+	width:49.5px;
+	height:250px;
+	transition: .8s;
+}
+
+
+.connector-first {
+	position: absolute;
+	top: 0%;
+	left: 130px;
+	border-radius: 25px; 
+}
+
+.stroke-vertical-first:hover {
+	background-color: white;
+	transform: scale(1.2);
+}
+
+#a4 {
+	position:absolute;
+	float:left;
+	top:0rem;
+	left:15rem;
+}
+
+.center-element {
+	position: absolute;
+	left: 25%;
+	top: 20%;
+}
+
+.box-element {
+	width: 90px;
+	height: 75px;
+	background-color: tomato;
+	transition: 1s;
+	border-radius: 25px 25px 25px 25px; 
+}
+
+.box-element:hover {
+	background-color: white;
+    transform: rotateX(3.142rad);
+}
+
+.right-box {
+	position: absolute;
+	left: 72%;
+	bottom: 0%;
+}
+
+.box-horizontal{
+	width:180px;
+	height: 180px;
+	background-color: darkslateblue;
+	border-radius: 25px 25px 0px 0px; 
+}
+
+
+.box-below-left{
+	width:50px;
+	height: 70px;
+	background-color: slateblue;
+	border-radius: 0px 0px 25px 25px; 
+}
+
+.box-below-right{
+	width:50px;
+	height: 70px;
+	background-color: slateblue;
+	border-radius: 0px 0px 25px 25px; 
+}
+
 #a{
 	position:absolute;
-	top:3rem;
-	left:3rem;
+	float:left;
+	top:0rem;
+	left:15rem;
+}
+
+.stroke-horizontal {
+	width:180px;
+	height:50px;
+	background-color: darkslateblue;
+	border-radius: 25px 25px 0px 0px; 
 }
 
 .stroke-vertical {
-	width:30px;
-	height:10px;
-	background-color:turqoise;
+	width:50px;
+	height:200px;
+	background-color: slateblue;
+	border-radius: 0px 0px 25px 25px; 
 }
+
+.middle {
+	position:absolute;
+	left: 72%;
+	bottom: 0%;
+}
+
+.connector {
+	position: absolute;
+	top: 50%;
+	left: 50px;
+	width:160px;
+	height:40px;
+	background-color: tomato;	
+	transition: 0.5s;
+	border-radius: 0px 25px 25px 0px; 
+}
+
+.connector:hover {
+	background-color: white;
+	transform: translateX(-3.2rem);
+}
+
+#a2{
+	position:absolute;
+	top:0rem;
+	left:14.7rem;
+	margin-left: 35px;
+}
+
+.stroke-vertical-a2 {
+	top:0rem;
+	left:79px;
+	width:50px;
+	height:257px;
+	background-color: slateblue;
+	border-radius: 25px 25px; 
+	transform: rotate(20deg);
+}
+
+.stroke-vertical-two-a2 {
+	top:0rem;
+	left: 72px;
+	width:50px;
+	height:257px;
+	background-color: darkslateblue;
+	border-radius: 25px 25px 25px 25px; 
+	transform: rotate(-20deg);
+}
+
+.middle-connector-right {
+	position: absolute;
+	top: 50%;
+	left: 175%;
+	width: 35px;
+	height: 50px;
+	background-color: tomato;
+    transition: 1s;
+    border-radius: 25px; 
+    transform: rotate(-20deg);
+}
+
+.middle-connector-right:hover {
+	background-color: white;
+	transform: translate(-5rem);
+}
+
+#a3 {
+	position:absolute;
+	top:0rem;
+	left:5rem;
+	margin-left: 170px;
+	}
+
+.middle-connector {
+	position: absolute;
+	top: 50%;
+	left: -24%;
+	width: 100px;
+	height: 30px;
+	background-color: tomato;
+	border: 5px solid #FF6347;
+}
+.triangle {
+	position: absolute;
+	border-bottom: 250px solid slateblue;
+	border-right: 120px solid transparent;
+	left: -27%;
+	border-radius: 25px 25px 0px 25px;
+}
+
+.parallelogram {
+   width: 100px; 
+   height: 210px;
+   left: 10%;
+   background: tomato;
+   /* Skew */
+   -webkit-transform: skew(20deg); 
+   -moz-transform: skew(20deg); 
+   -o-transform: skew(20deg);
+   transform: skew(20deg);
+   border: 20px solid darkslateblue;
+   transition: 0.3s;
+   border-radius: 25px 25px 25px 25px;
+}
+
+.parallelogram:hover {
+	background-color: white;
+}
+
+.shadow {
+	box-shadow: 5px 5px indigo;
+}
+
+.shadow2 {
+	border-style: inset;
+}
+
+.middle-left-connector-third {
+	position: absolute;
+	top: 50%;
+	left: -38.5%;
+   width: 80px; 
+   height: 35px;
+   background: darkslateblue;
+      /* Skew */
+   -webkit-transform: skew(20deg); 
+   -moz-transform: skew(20deg); 
+   -o-transform: skew(20deg);
+   border-radius: 25px 0px 0px 25px;
+   }
+
+
