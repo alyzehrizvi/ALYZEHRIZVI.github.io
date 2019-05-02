@@ -363,4 +363,22 @@ position: absolute;
   z-index: 900;
 }
 
+.stopheading {
+  position: absolute;
+  top: 800px;
+  left: 205px;
+  font-family: arial;
+  font-size: 22px;
+  color: black;
+  z-index: 20;
+}
 
+.stoopheading {
+   position: absolute;
+  top: 900px;
+  right: 45px;
+  font-family: arial;
+  font-size: 36px;
+  z-index: 20;
+  color: black;
+}

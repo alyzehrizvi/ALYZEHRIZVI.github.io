@@ -164,12 +164,6 @@ position: absolute;
   transition: 2.5s;
 }
 
-.positionleft:hover {
-  background-color: blue; 
-  transform: rotate(30deg);
-  z-index: 30;
-}
-
 .positionright {
   top: 200px;
   left: 100px;
@@ -217,6 +211,7 @@ position: absolute;
   line-height: 100px;
   width: 300px;
   font-weight: bold;
+  color: black;
 
 }
 
@@ -333,6 +328,17 @@ position: absolute;
   background-size: 200px;
   z-index: 30;
 }
+
+.stoopheading {
+   position: absolute;
+  top: 700px;
+  right: 40px;
+  font-family: arial;
+  font-size: 55px;
+  z-index: 20;
+  color: black;
+}
+
 
 .positionright4:hover {
   background-image: url(file:///Users/Alyzeh-Home/Documents/SP%202019/GD%20for%20Web/Github%20Archive/alyzehrizvi.github.io/img/Screen%20Shot%202019-05-02%20at%2012.34.21%20PM.png); 

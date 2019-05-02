@@ -22,17 +22,28 @@ html {
   font-family: arial;
   font-size: 35px;
   z-index: 20;
+  color: black;
 }
 
 
 .stopheading {
   position: absolute;
-  top: 14px;
-  left: 34px;
-  font-family: helvetica;
-  font-size: 22px;
-  color: orange;
+  top: -10px;
+  left: 20px;
+  font-family: arial;
+  font-size: 35px;
+  color: yellow;
   z-index: 20;
+}
+
+.stoopheading {
+   position: absolute;
+  top: 700px;
+  right: 40px;
+  font-family: arial;
+  font-size: 55px;
+  z-index: 20;
+  color: black;
 }
 
 .topheadingdetails {

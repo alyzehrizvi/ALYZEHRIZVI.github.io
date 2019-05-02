@@ -23,6 +23,7 @@ html {
   font-family: arial;
   font-size: 35px;
   z-index: 20;
+  color: black;
 }
 
 .topheadingdetails {
@@ -407,5 +408,13 @@ font-weight: bold;
   right: 80px;
 }
 
-
+.stoopheading {
+   position: absolute;
+  top: 700px;
+  right: 40px;
+  font-family: arial;
+  font-size: 55px;
+  z-index: 20;
+  color: black;
+}
 
