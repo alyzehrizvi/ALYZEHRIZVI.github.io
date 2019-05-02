@@ -428,15 +428,3 @@ svg {
   background: yellow;
 }
 
-#azaan {
-  position: absolute;
-  top: 0px;
-  display: block;
-  height: 20px;
-  width: 1000px;
-  left: 290px;
-  border: px solid darkslateblue;
-  border-radius: 100px;
-  z-index: 900;
-}
-
