@@ -1,0 +1,327 @@
+html {
+  background: white;
+  padding: 0;
+  border: 3px solid black;
+  margin: 0;
+  height: 100vh;
+}
+
+.topheading {
+  position: absolute;
+  top: -24px;
+  left: 40px;
+  font-family: arial;
+  font-size: 35px;
+  z-index: 20;
+}
+
+.topheadingdetails {
+position: absolute;
+  top: -24px;
+  right: 40px;
+  font-family: arial;
+  font-size: 35px;
+  z-index: 20;
+}
+
+
+#layout {
+  display: block;
+}
+
+
+.grid2 {
+  position: absolute;
+  display: inline-block;
+ top: 0px;
+  left: 850px;
+  cursor: pointer;
+  width: 80px;
+  height: 100%;
+  border: 3px solid black;
+   background: linear-gradient(crimson, darkorange, yellow, lime);
+}
+
+.grid2:hover {
+  background: yellow;
+}
+
+
+.grid2font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-family: arial;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.grid3font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-family: arial;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.grid3 {
+  position: absolute;
+  display: inline-block;
+  left: 930px;
+ top: 0px;
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+  border: 3px solid black;
+  background: linear-gradient(crimson, darkorange, yellow, lime);
+ }
+
+.grid6 {
+  position: absolute;
+  display: inline-block;
+  left: 1010px;
+ top: 0px;
+  width: 80px;
+  height: 100vh;
+  border: 3px solid black;
+  background: white;
+ }
+
+ .grid6font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.grid7 {
+  position: absolute;
+  display: inline-block;
+  left: 1090px;
+  width: 80px;
+  top: 0px;
+  height: 100vh;
+  border: 3px solid black;
+  background: white;
+ }
+
+  .grid7font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+
+.header {
+  top:0px;
+  left:0px;
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+#popup {
+  position: relative;
+}
+
+.boxpopup {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.boxpopup:hover {
+  background-image: url(file:///Users/alyzeh-home/Documents/SP%202019/GD%20for%20Web/Github%20Archive/alyzehrizvi.github.io/img/red-cross-png-red-cross-png-file-2000.png);
+background-size: 300px;
+cursor: not-allowed;
+ z-index: 800;
+}
+
+.grid6:hover {
+  background-image: url(file:///Users/alyzeh-home/Documents/SP%202019/GD%20for%20Web/Github%20Archive/alyzehrizvi.github.io/img/red-cross-png-red-cross-png-file-2000.png);
+background-size: 10px 5000px;
+background-position: center;
+cursor: not-allowed;
+}
+
+.grid7:hover {
+  background-image: url(file:///Users/alyzeh-home/Documents/SP%202019/GD%20for%20Web/Github%20Archive/alyzehrizvi.github.io/img/red-cross-png-red-cross-png-file-2000.png);
+background-size: 10px 5000px;
+background-position: center;
+cursor: not-allowed;
+}
+
+.positionleft {
+  top: 200px;
+  left: 50px;
+  z-index: 11;
+}
+
+
+.positionright {
+  top: 230px;
+  left: 80px;
+  z-index: 12;
+}
+
+.positionright2 {
+  top: 260px;
+  left: 110px;
+  z-index: 13;
+}
+
+.positionright3 {
+  top: 290px;
+  left: 140px;
+  z-index: 14;
+}
+
+.positionright4 {
+  top: 360px;
+  left: 220px;
+  z-index: 15;
+}
+
+.positionright5 {
+  top: 390px;
+  left: 250px;
+  z-index: 15;
+}
+
+.positionright6 {
+  top: 420px;
+  left: 280px;
+  z-index: 15;
+}
+
+.positionright7 {
+  top: 450px;
+  left: 310px;
+  z-index: 15;
+  }
+
+.straightheading {
+  position: relative;
+  z-index: 90;
+}
+
+.normalfont {
+  position: absolute;
+  display: block;
+  left: 50px;
+  top: 100px;
+  font-family: arial;
+  font-size: 40px;
+  z-index: 
+}
+
+.error {
+position: absolute;
+display: block;
+float: center;
+font-family: arial;
+font-size: 90px;
+font-weight: bolder;
+color: black;
+top: 0px;
+left: 70px;
+}
+
+.errorpart2 {
+  position: absolute;
+  display: block;
+  font-size:30px;
+  top: 150px;
+  left: 60px;
+}
+
+.btn {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 500px;
+  padding: 10px 14px;
+  font-size: 19px;
+  color: black;
+  font-family: helvetica;
+  background-color: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+   font-family: helvetica;
+    font-size: 19px;
+    border: 1px solid black;
+}
+
+.top2005 {
+  position: absolute;
+  display: block;
+  top: 150px;
+  right: 80px;
+}
+
+.top2007 {
+  position: absolute;
+  display: block;
+  top: 200px;
+  right: 80px;
+}
+
+.top2009 {
+  position: absolute;
+  display: block;
+  top: 250px;
+  right: 80px;
+}
+
+.top2013 {
+  position: absolute;
+  display: block;
+  top: 300px;
+  right: 80px;
+}
+
+.top2019 {
+  position: absolute;
+  display: block;
+  top: 350px;
+  right: 80px;
+}
+
+
+.btn2 {
+  display: inline-block;
+  color: black;
+  cursor: pointer;
+  z-index: 900;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.grid2:hover {
+  background: yellow;
+}
+
+.grid3:hover {
+  background: yellow;
+}
+

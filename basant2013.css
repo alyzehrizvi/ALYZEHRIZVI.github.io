@@ -1,0 +1,347 @@
+html {
+  background: white;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  height: 100vh;
+  border: 3px solid black;
+}
+
+
+.topheading {
+  position: absolute;
+  top: -24px;
+  left: 40px;
+  font-family: arial;
+  font-size: 35px;
+  z-index: 20;
+}
+
+.topheadingdetails {
+position: absolute;
+  top: -24px;
+  right: 40px;
+  font-family: arial;
+  font-size: 35px;
+  z-index: 20;
+}
+
+
+#layout {
+  display: block;
+}
+
+
+.grid2 {
+  position: absolute;
+  display: inline-block;
+ top: 0px;
+  left: 850px;
+  width: 80px;
+  height: 100%;
+  border: 3px solid black;
+  background: linear-gradient(darkgrey, crimson, yellow, yellow, gold, crimson);
+}
+
+
+
+.grid2font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-family: arial;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.grid3font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-family: arial;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.grid3 {
+  position: absolute;
+  display: inline-block;
+  left: 930px;
+ top: 0px;
+  width: 80px;
+  height: 100%;
+  border: 3px solid black;
+  background: linear-gradient(crimson, gold, yellow,yellow, crimson, darkgrey);
+ }
+
+.grid6 {
+  position: absolute;
+  display: inline-block;
+  left: 1010px;
+ top: 0px;
+  width: 80px;
+  height: 100vh;
+  border: 3px solid black;
+  background: linear-gradient(crimson, darkorange, yellow);
+ }
+
+.grid6font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-family: arial;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+.grid7 {
+  position: absolute;
+  display: inline-block;
+  left: 1090px;
+  width: 80px;
+  top: 0px;
+  height: 100vh;
+  border: 3px solid black;
+  background: linear-gradient(crimson, yellow);
+ }
+
+  .grid7font {
+  position: absolute;
+  display: inline-block;
+  right: -15px;
+  top: 390px;
+  font-family: arial;
+  font-size: 35px;
+  writing-mode: vertical-rl;
+  text-align: center;
+}
+
+
+.header {
+  top:0px;
+  left:0px;
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+#popup {
+  position: relative;
+}
+
+
+.boxpopupred {
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  border: 3px solid black;
+}
+
+
+.boxpopup {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  border: 3px solid black;
+}
+
+.positionleft {
+  top: 180px;
+  left: 70px;
+  z-index: 11;
+  transition: 2.5s;
+}
+
+.positionleft:hover {
+  background-color: blue; 
+  transform: rotate(30deg);
+  z-index: 30;
+}
+
+.positionright {
+  top: 200px;
+  left: 100px;
+  z-index: 12;
+}
+
+.positionright2 {
+  top: 220px;
+  left: 130px;
+  z-index: 13;
+}
+
+.positionright3 {
+  top: 240px;
+  left: 160px;
+  z-index: 14;
+}
+
+.positionright4 {
+  top: 260px;
+  left: 190px;
+  z-index: 15;
+}
+
+.positionright5 {
+  top: 280px;
+  left: 220px;
+  z-index: 15;
+}
+
+.straightheading {
+  position: relative;
+  z-index: 90;
+}
+
+.basantheading {
+  position: absolute;
+  display: block;
+  left: 60px;
+  top: 490px;
+  font-family: helvetica;
+  text-transform: uppercase;
+  font-size: 120px;
+  white-space: initial;
+  line-height: 100px;
+  width: 300px;
+  font-weight: bold;
+
+}
+
+.normalfont {
+  position: absolute;
+  display: block;
+  left: 445px;
+  top: 140px;
+  font-family: arial;
+  font-size: 35px;
+}
+
+.otherfont {
+  position: absolute;
+  display: block;
+  left: 60px;
+  top: 90px;
+  font-family: arial;
+  font-size: 35px;
+}
+
+.header {
+  top:0px;
+  left:0px;
+  position: absolute;
+  width: 100vw;
+  height: 60px;
+  background-color: yellow;
+  border: 3px solid black;
+}
+
+
+.btn {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 10px 14px;
+  font-size: 19px;
+  border-radius: 500px;
+  color: black;
+  font-family: helvetica;
+  background-color: lime;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+   font-family: helvetica;
+    font-size: 19px;
+    border: 1px solid black;
+}
+
+.top2005 {
+  position: absolute;
+  display: block;
+  top: 150px;
+  right: 80px;
+}
+
+.top2007 {
+  position: absolute;
+  display: block;
+  top: 200px;
+  right: 80px;
+}
+
+.top2009 {
+  position: absolute;
+  display: block;
+  top: 250px;
+  right: 80px;
+}
+
+.top2013 {
+  position: absolute;
+  display: block;
+  top: 300px;
+  right: 80px;
+}
+
+.top2019 {
+  position: absolute;
+  display: block;
+  top: 350px;
+  right: 80px;
+}
+
+.btn2 {
+  display: inline-block;
+  color: black;
+  cursor: pointer;
+  z-index: 900;
+  transition: 1s;
+}
+
+.grid2:hover {
+  background: yellow;
+}
+
+.grid3:hover {
+  background: yellow;
+}
+
+.grid6:hover {
+  background: yellow;
+}
+
+.grid7:hover{
+  background: yellow;
+}
+
+.positionright5:hover {
+  background-image: url(https://usercontent2.hubstatic.com/12825905_f496.jpg); 
+  background-size: 200px;
+  z-index: 30;
+}
+
+.positionright4:hover {
+  background-image: url(file:///Users/Alyzeh-Home/Documents/SP%202019/GD%20for%20Web/Github%20Archive/alyzehrizvi.github.io/img/Screen%20Shot%202019-05-02%20at%2012.34.21%20PM.png); 
+  background-size: 300px;
+  z-index: 30;
+}
+
+.positionright3:hover {
+  background-image: url(file:///Users/Alyzeh-Home/Documents/SP%202019/GD%20for%20Web/Github%20Archive/alyzehrizvi.github.io/img/Screen%20Shot%202019-05-02%20at%2012.35.47%20PM.png); 
+  background-size: 300px;
+  z-index: 30;
+}
