@@ -41,8 +41,8 @@ position: absolute;
 
 .basantheading {
 	position: absolute;
-  top: 300px;
 	left: 205px;
+	bottom: 0px;
 	font-family: helvetica;
   color: crimson;
   font-weight: bold;
@@ -356,13 +356,6 @@ position: absolute;
   z-index: 900;
 }
 
-#kite {
-  position: absolute;
-  display: block;
-  top: 0px;
-  z-index: 900;
-}
-
 .stopheading {
   position: absolute;
   top: 800px;
@@ -382,3 +375,4 @@ position: absolute;
   z-index: 20;
   color: black;
 }
+
