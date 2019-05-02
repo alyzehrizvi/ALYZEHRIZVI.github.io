@@ -12,6 +12,7 @@ html {
   position: absolute;
   top: -24px;
   left: 40px;
+  color: black;
   font-family: arial;
   font-size: 35px;
   z-index: 20;
