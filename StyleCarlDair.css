@@ -88,7 +88,7 @@ p {
 }
 
 .size {
-	transition: 2s;
+	transition: 0s;
 }
 
 .size:hover {
