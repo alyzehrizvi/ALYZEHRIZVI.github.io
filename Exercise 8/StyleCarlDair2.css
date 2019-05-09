@@ -8,7 +8,7 @@ html {
     linear-gradient(-90deg, rgba(242, 162, 232,0) 20%, rgba(242, 162, 232,.4) 20%, rgba(242, 162, 232,.4) 40%, rgba(242, 162, 232,.5) 40%, rgba(242, 162, 232,.5) 60%, rgba(242, 162, 232,.6) 60%, rgba(242, 162, 232,.6) 80%, rgba(242, 162, 232,.8) 80%),
     linear-gradient(180deg, rgba(254, 163, 170,0) 20%, rgba(254, 163, 170,.4) 20%, rgba(254, 163, 170,.4) 40%, rgba(254, 163, 170,.6) 40%, rgba(254, 163, 170,.6) 60%, rgba(254, 163, 170,.8) 60%, rgba(254, 163, 170,.8) 80%, rgba(254, 163, 170,.9) 80%)
 ;
-	background-color: salmon;
+	background-color: khaki;
 	background-size: 100% 750%;
 	min-height: 100%;
 	max-height: 900%;
@@ -42,6 +42,23 @@ p {
 	font-family: helvetica;
 }
 
+
+#photo {
+	left: 0px;
+	padding: 0px 0px 40px 0px;
+ width: 50%;
+ float: center;
+ box-sizing: border-box;
+ max-width:800px;
+	
+}
+
+img {
+  width:100%;
+  max-width: 600px;
+}
+
+
 .paragraph-special-one {
 	margin-bottom: 80px;
 }
@@ -51,7 +68,7 @@ p {
 }
 
 .heading-title {
-	font-size:160px;
+	font-size:100px;
 	color: crimson;
 	line-height: auto;
 	transition: 2s;
@@ -88,7 +105,7 @@ p {
 }
 
 .size {
-	transition: 0s;
+	transition: -.5s;
 }
 
 .size:hover {
@@ -102,3 +119,96 @@ ul {
 	font-family: helvetica;
 	font-style: italic;
 }
+
+@media screen and (max-width: 1000px){
+  .heading-title{
+    font-size: 80px;
+    color: slateblue;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .heading-title{
+    font-size: 50px;
+    color: darkslateblue;
+  }
+}
+
+
+@media screen and (max-width:800px) and (min-width: 600px){
+    .subheading {
+    	font-size: 25px;
+    	color: darkblue;
+    	background-image: url(https://d2r1vs3d9006ap.cloudfront.net/s3_images/1660404/RackMultipart20171012-63019-s0erke-Rule_Of_Thirds_1920_x_1080.png?1507766799);
+    	background-size: 100000px 9px;
+    	 }
+
+    .subheading2{
+    	font-size: 25px;
+    	color: darkblue;
+    	background-image: url(https://d2r1vs3d9006ap.cloudfront.net/s3_images/1660404/RackMultipart20171012-63019-s0erke-Rule_Of_Thirds_1920_x_1080.png?1507766799);
+    	background-size: 100000px 9px;
+  }
+
+html { 
+	background: lavender;
+	background-size: 100% 750%;
+}
+
+   p{
+    	font-size: 14px;
+    	color: darkslateblue;
+}
+
+ul {
+	color: darkslateblue;
+	font-size: 14px;
+}
+}
+
+@media screen and (max-width: 600px){
+  .heading-title{
+    font-size: 30px;
+    color: rebeccapurple;
+  }
+}
+
+@media screen and (max-width:600px) and (min-width: 400px){
+    .subheading {
+    	font-size: 20px;
+    	color: darkslateblue;
+    	background-image: url(https://d2r1vs3d9006ap.cloudfront.net/s3_images/1660404/RackMultipart20171012-63019-s0erke-Rule_Of_Thirds_1920_x_1080.png?1507766799);
+    	background-size: 100000px 9px;
+    	 }
+
+    .subheading2{
+    	font-size: 20px;
+    	color: darkslateblue;
+    	background-image: url(https://d2r1vs3d9006ap.cloudfront.net/s3_images/1660404/RackMultipart20171012-63019-s0erke-Rule_Of_Thirds_1920_x_1080.png?1507766799);
+    	background-size: 100000px 9px;
+  }
+
+html { 
+	background: white;
+	background-size: 100% 750%;
+}
+
+  p{
+    	font-size: 12px;
+    	color: black;
+}
+
+ul {
+	color: black;
+	font-size: 12px;
+}
+
+.credits {
+	color: darkslateblue;
+	font-size: 16px;
+}
+
+}
+
+
+
