@@ -71,7 +71,7 @@ img {
 	font-size:100px;
 	color: crimson;
 	line-height: auto;
-	transition: 2s;
+	transition: .5s;
 	text-align: left;
 }
 
