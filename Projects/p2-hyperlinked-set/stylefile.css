@@ -424,44 +424,5 @@ color: blue;
 	left: 250px;
 }
 
-#collage {
-	position: relative;
-	top: -160px;
-	right: 120px;
-	width: 30vw;
-	height: 30vh;
-	background-color: none;
-}
-
-.photos {
-	position: absolute;
-	display: inline-block;
-	height: 250px;
-	border: 5px solid white;
-
-}
-
-.photo1 {
-		transform: rotate(10deg);
-		right: 100px;
-}
-
-.photo2 {
-		transform: rotate(5deg);
-		right: -100px;
-}
-
-.photo3 {
-		transform: rotate(-1deg);
-		right: -200px;
-}
-
-.photo4 {
-		transform: rotate(-10deg);
-		right: -540px;
-}
 
 
-.photo4:hover {
-	
-}
