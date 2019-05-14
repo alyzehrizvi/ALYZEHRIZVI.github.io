@@ -8,6 +8,11 @@ html {
 }
 
 
+.boxpopupred:hover {
+  
+  cursor: url('http://www.sclance.com/pngs/small-png/download.php?file=./small_png_1255598.png'), auto;
+} 
+
 .topheading {
   position: absolute;
   top: -24px;
