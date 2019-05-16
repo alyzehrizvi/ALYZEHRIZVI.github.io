@@ -1,72 +1,44 @@
+#layout {
+	margin: 0 auto;
+    max-width: 80em;
+    padding: 10px;
+}
+
 div {
-	font-family: helvetica;
-	font-size: 50px;
-	color: white;
-text-align: center;
+	display: block;
+}
+
+.grid {
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 20px;
+}
+
+.grid > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header, footer {
+    grid-column: 1 / 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+header, footer {
+    background: gold;
+    padding: 10px;
+}
+
+beginning, middle {
+	background: turquoise;
+    padding: 10px;
 }
 
 body {
-padding-right: 50px;
-padding-left: 50px;
-padding-bottom: 50px;
+	font-family: helvetica;
+	color: white;
+	font-size: 40px;
 }
-
-.header {
-	background-color: darkorange;
-	padding: 69px;
-	line-height: 20px;
-
-}
-
-.middle {
-	margin-top: 15px;
-display: block;
-padding: 20px;
-background-color: gold;
-	line-height: 90px;
-
-
-}
-
-.column {
-	position: absolute;
-	height: 500px;
-	margin-top: 15px;
-	width: 30.2%;
-  	padding: 15px;
-	float: left;
-	background-color: turquoise;
-		line-height: 500px;
-
-}
-
-.left-box {
-	position: relative;
-		border-right: 15px solid white;
-}
-
-.middle-box {
-	position: relative;
-		border-right: 15px solid white;
-
-}
-
-.right-box {
-	position: relative;
-
-}
-
-.footer {
-	display: block;
-	position: relative;
-	width: 89.2%;
-	float: left;
-	margin-top: 15px;
-	background-color: gold;
-	padding: 70px;
-		line-height: 20px;
-
-}
-
-
-

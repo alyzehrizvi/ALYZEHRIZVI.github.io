@@ -339,18 +339,21 @@ color: blue;
 #menuboxes {
 	display: inline-block;
 	height: 100vh;
-	width: 100px;
-	font-size: 60px;
+	width: 140px;
+	padding: 0px 10px 0px 10px;
+	font-size: 80px;
 	writing-mode: tb-rl;
 	transform: rotate(-180deg);
 	word-break: break-all;
 	white-space: normal;
 	background-color: #f5e8d5;
 	border: 5px solid black;
-	word-spacing: -1rem; 
+	word-spacing: .6rem; 
     margin: 0 auto;
     transition: 0.3s;
     text-align: center;
+   font-family: helvetica;
+
 }
 
 #menuboxes:hover {

@@ -1,0 +1,46 @@
+html {
+	background-color: bisque;
+}
+header {
+    width: 760px;
+    height: 100px;
+    background-color: palevioletred;
+    float: none;
+    margin-bottom: 100px;
+    display: block: 
+}
+
+p {
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#body {
+    display: block;
+    width: 600px;
+    height: 500px;
+    background-color: lightsalmon;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#information {
+    display: block;
+    width: 150px;
+    height: 200px;
+    background-color: lightcoral;
+    float: left;
+}
+
+#footer {
+    display: block;
+    width: 600px;
+    height: 50px;
+    background-color: orange;
+    clear: left;
+    margin-bottom: 100px;
+}

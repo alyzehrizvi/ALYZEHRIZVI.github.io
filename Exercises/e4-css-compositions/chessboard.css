@@ -1,0 +1,152 @@
+
+
+.chessboard {
+    display: block;
+    width: 1000px;
+    height: 800px;
+    margin: 100px;
+    border: 25px solid white;
+}
+
+
+.peachpuff {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: peachpuff;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.moccasin {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: moccasin;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gold {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.orange {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.darkorange {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.sandybrown {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: sandybrown;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.lightsalmon {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightsalmon;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.darksalmon {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.salmon {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.indianred {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: indianred;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rosybrown {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rosybrown;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.palevioletred {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.lightpink {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.pink {
+    box-sizing: border-box;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: table-cell;
+    vertical-align: middle;
+}
